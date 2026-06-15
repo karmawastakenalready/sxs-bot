@@ -1,0 +1,41 @@
+common:
+  error_no_permission: "You do not have permission to use this command."
+  error_not_linked: "You need to link your in-game account first using `/link`."
+
+linking:
+  link_success: "Successfully linked your account to **{username}** (Class: {class_name})."
+  unlink_success: "Your account has been unlinked."
+  whoami_info: "You are currently linked as **{username}** (Class: {class_name})."
+  lookup_info: "Discord user <@{user_id}> is linked as **{username}** (Class: {class_name})."
+  lookup_fail: "Discord user <@{user_id}> is not linked."
+
+roster:
+  embed_title: "Sword x Staff Guild Roster"
+  embed_description: "Total Members: {total_members}"
+  comp_title: "Guild Class Composition"
+
+reminders:
+  daily_checklist: |
+    **Daily Reset Checklist**
+    - 🗽 Do your Wish Goddess Statue daily 10-pull!
+    - 💰 Complete 3x guild donations!
+    - 🐉 Run your guild boss!
+    - 📜 Finish daily quests & stone tablet quiz!
+
+guides:
+  list_title: "Available Guides"
+  not_found: "Guide not found for topic: `{topic}`."
+
+announcements:
+  set_success: "Guild announcement updated successfully."
+  current_title: "Guild Announcement"
+
+boss:
+  mark_done: "You've been marked as having completed the guild boss today!"
+  status_title: "Guild Boss Status"
+  done_list: "**Completed ({done_count}):**\n{done_members}"
+  pending_list: "**Pending ({pending_count}):**\n{pending_members}"
+
+leaderboard:
+  set_success: "Power level set to **{power}**."
+  board_title: "Guild Power Leaderboard"
